@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-// import Header from "./components/header";
-// import Introduction from "./components/introduction";
+import Header from "./components/header";
 // import About from "./components/about";
 // import Projects from "./components/projects";
 // import Timeline from "./components/timeline";
@@ -12,14 +11,14 @@ class App extends Component {
     return (
       <div id="page">
         <div id="wrap">
-          {/* <Header></Header> */}
+          <Header></Header>
           <div id="main">
-            {/* <Introduction></Introduction>
+            {/*
             <About></About>
             <Projects></Projects>
             <Timeline></Timeline>
             <Contact></Contact> */}
-          </div> 
+          </div>
         </div>
       </div>
     );
